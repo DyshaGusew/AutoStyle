@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    list-style: none;
+}
+
+html {
+    min-height: 100vh;
+    width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    width: 100%;
+    background-color: #272727;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 5vh;
+    width: 10vh;
+    background-color: #000;
+}
+
+.pc-nav-menu {
+    height: 5vh;
+    display: flex;
+    gap: 2vh;
+}
+
+.pc-nav-menu-button {
+    padding: 0.5vh;
+    color: #fff;
+    text-align: center;
+}
+
+.pc-nav-menu-button:hover {
+    background-color: #424242;
+}
+
+.mob-nav-menu-button {
+}
+
+main {
+    min-height: 90vh;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+    background-color: #272727;
+    color: #fff;
+}
+
+/* Classes of width */
+
+.max-width-80-percents {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Classes of display */
+
+.display-none {
+    display: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.display-block {
+    display: block;
+}
