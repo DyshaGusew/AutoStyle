@@ -60,6 +60,7 @@
 
 .inner-slider-text h1 {
     font-size: 7.5vh;
+    font-weight: normal;
     word-break: normal;
     display: flex;
     flex-wrap: wrap;
@@ -68,6 +69,7 @@
 .inner-slider-text h2 {
     margin-top: 3vh;
     font-size: 4vh;
+    font-weight: normal;
     word-break: normal;
 }
 
