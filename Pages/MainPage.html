@@ -4,6 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" type="text/css" href="../Style/CSS/MainPage.css" />
         <link rel="stylesheet" type="text/css" href="../Style/CSS/GeneralElements.css" />
+        <script src="../Scripts/MainPageScript.js"></script>
         <title>AutoStyle</title>
     </head>
     <body>
@@ -32,8 +33,91 @@
             </div>
         </header>
         <main>
-            <div class="main-container max-width-80-percents">
-                
+            <div class="main-slider">
+                <div id="slider-wrapper" class="main-slider-wrapper">
+                    <div class="main-slider-card slider-card-1">
+                        <div class="inner-slider max-width-80-percents">
+                            <div class="inner-slider-text">
+                                <h1>AutoStyle</h1>
+                                <h2>Тюнинг-ателье №1 во Владивостоке!</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-slider-card slider-card-2">
+                        <div class="inner-slider max-width-80-percents">
+                            <div class="inner-slider-text">
+                                <h1>Индивидуальный подход</h1>
+                                <h2>Каждый проект уникален</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-slider-card slider-card-3">
+                        <div class="inner-slider max-width-80-percents">
+                            <div class="inner-slider-text">
+                                <h1>Профессиональная команда</h1>
+                                <h2>Да</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-slider-card slider-card-4">
+                        <div class="inner-slider max-width-80-percents">
+                            <div class="inner-slider-text">
+                                <h1>Гарантия год на тюнинг</h1>
+                                <h2>+ скидка на ТО во время гарантии</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-slider-btns-container">
+                    <button class="inner-slider-btn left-arrow" onclick="SwitchSliderLeft()"></button>
+                    <button class="inner-slider-btn right-arrow" onclick="SwitchSliderRight()"></button>
+                </div>
+            </div>
+            <div class="main-services max-width-80-percents">
+                <h2 class="main-services-headline">Услуги</h2>
+                <p class="main-services-para">Весь тюнинг ограничен лишь вашей фантазией, однако мы также предлагаем широкий спектр услуг готового тюнинга.</p>
+                <div class="main-services-cards-container">
+                    <div class="main-services-card">
+                        <h3 class="main-services-card-headline">Чип-тюнинг</h3>
+                        <p class="main-services-card-text">от 5000р</p>
+                    </div>
+                    <div class="main-services-card">
+                        <h3 class="main-services-card-headline">Перекраска кузова</h3>
+                        <p class="main-services-card-text">от 90 000р</p>
+                    </div>
+                    <div class="main-services-card">
+                        <h3 class="main-services-card-headline">Установка гидравлического ручника</h3>
+                        <p class="main-services-card-text">от 25 000р</p>
+                    </div>
+                </div>
+                <p class="main-services-para align-right">Весь список услуг можно посмотреть <a class="link" href="./Services/ReadyTuning.html">тут</a></p>
+            </div>
+            <div class="main-works max-width-80-percents">
+                <h2 class="main-works-headline">Примеры работ</h2>
+                <div class="main-works-cards-container">
+                    <div class="main-works-card card-1" onmouseover="OpenCard('card-inside-1')" onmouseout="CloseCard('card-inside-1')">
+                        <div class="main-works-card-inside" id="card-inside-1">
+                            <p class="main-works-card-inside-text">Skyline R32. Спорт обвес, 540 л.с., усилинные подвеска и тормоза. Оригинальная окраска, предложенная клиентом.</p>
+                        </div>
+                    </div>
+                    <div class="main-works-card card-2" onmouseover="OpenCard('card-inside-2')" onmouseout="CloseCard('card-inside-2')">
+                        <div class="main-works-card-inside" id="card-inside-2">
+                            <p class="main-works-card-inside-text">Silvia S13 Игоря Симоненко. Stage 3, гидравлический ручник, дрифт-подвеска. Участвовала в соревнованиях RDS, а также в японских дрифт-лигах.</p>
+                        </div>
+                    </div>
+                    <div class="main-works-card card-3" onmouseover="OpenCard('card-inside-3')" onmouseout="CloseCard('card-inside-3')"> 
+                        <div class="main-works-card-inside" id="card-inside-3">
+                            <p class="main-works-card-inside-text">BMW 2002 tii 1970 года. 65% автомобиля изготовлено заново. Двигатель форсирован до 195 л.с. Расширительный обвес, диски BBS, винтовая подвеска - это едва ли четверть тюнинга.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="main-works-para align-right">Весь список работ <a class="link" href="./Works.html">тут</a></p>
+            </div>
+            <div class="main-cta max-width-80-percents">
+                <h2 class="main-cta-headline">Ваша машина достойна лучшего. Запишитесь на тюнинг!</h2>
+                <div class="main-cta-conatiner">
+                    <button class="main-cta-btn">Записаться</button>
+                </div>
             </div>
         </main>
         <footer>

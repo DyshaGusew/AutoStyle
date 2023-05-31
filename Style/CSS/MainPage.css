@@ -1,0 +1,246 @@
+.main-slider {
+    height: 80vh;
+    background-color: black;
+    
+    overflow: hidden;
+    position: relative;
+}
+
+.main-slider-wrapper {
+    height: 80vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#slider-wrapper {
+    position: relative;
+    left: 0;
+    transition: left 0.5s;
+}
+
+.main-slider-card {
+    width: 100%;
+    background-position: center;
+    background-size: auto 80vh;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    flex-grow: 0;
+    overflow: hidden;
+}
+
+.slider-card-1 {
+    background-image: url('../Images/MainPageImages/Building.png');
+    background-position: center right;
+}
+
+.slider-card-2 {
+    background-image: url('../Images/MainPageImages/UniqProjects.png');
+}
+
+.slider-card-3 {
+    background-image: url('../Images/MainPageImages/ServiceTeam.png');
+}
+
+.slider-card-4 {
+    background-image: url('../Images/MainPageImages/Warranty.png');
+}
+
+.inner-slider {
+    height: 80vh;
+    position: relative;
+}
+
+.inner-slider-text {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 6vh;
+    left: 0;
+}
+
+.inner-slider-text h1 {
+    font-size: 7.5vh;
+    word-break: normal;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner-slider-text h2 {
+    margin-top: 3vh;
+    font-size: 4vh;
+    word-break: normal;
+}
+
+.inner-slider-btns-container {
+    display: flex;
+    gap: 1vh;
+    position: absolute;
+    bottom: 2vh;
+    left: calc(50% - 5.5vh);
+}
+
+.inner-slider-btn {
+    height: 4.5vh;
+    width: 4.5vh;
+    background-color: transparent;
+    background-size: 100%;
+    border: none;
+    transition: background-image 0.3s;
+    cursor: pointer;
+}
+
+.inner-slider-btn.left-arrow {
+    background-image: url('../Images/LeftArrow.svg');
+}
+
+.inner-slider-btn.left-arrow:hover {
+    background-image: url('../Images/LeftArrowHover.svg');
+}
+
+.inner-slider-btn.right-arrow {
+    background-image: url('../Images/RightArrow.svg');
+}
+
+.inner-slider-btn.right-arrow:hover {
+    background-image: url('../Images/RightArrowHover.svg');
+}
+
+.main-services {
+    padding-top: 5vh;
+}
+
+.main-services-headline {
+    font-size: 4.5vh;
+}
+
+.main-services-para {
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+
+.main-services-cards-container {
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.main-services-card {
+    height: 25vh;
+    width: 50vh;
+    padding: 2vh;
+    background-color: #eb8334;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.main-services-card-headline {
+    font-size: 3vh;
+}
+
+.main-services-card-text {
+    margin-top: 2vh;
+    font-size: 2.2vh;
+}
+
+.main-services-para.align-right {
+    text-align: right;
+}
+
+.main-works {
+    padding-top: 5vh;
+}
+
+.main-works-headline {
+    font-size: 4.5vh;
+}
+
+.main-works-cards-container {
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.main-works-card {
+    height: 25vh;
+    width: 50vh;
+    background-position: center;
+    background-size: 100% auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-works-card-inside {
+    height: 100%;
+    width: 100%;
+    padding: 2vh;
+    background-color: #0000008c;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100%;
+    transition: top 0.3s;
+}
+
+.main-works-card-inside-text {
+    color: #fff;
+    font-size: 2vh;
+}
+
+.card-1 {
+    background-image: url('../Images/MainPageImages/Tyun.jpg');
+}
+
+.card-2 {
+    background-image: url('../Images/MainPageImages/tyun_2.png');
+}
+
+.card-3 {
+    background-image: url('../Images/MainPageImages/tyun_3.png');
+}
+
+.main-works-para {
+    margin-top: 2vh;
+    font-size: 2.5vh;
+    text-align: right;
+}
+
+/* link class */
+
+.link {
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #eb8334;
+}
+
+/*  */
+
+.main-cta {
+    padding: 6vh 0 10vh 0;
+}
+
+.main-cta-headline {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.main-cta-conatiner {
+    display: flex;
+    justify-content: center;
+}
+
+.main-cta-btn {
+    margin-top: 3.5vh;
+    padding: 1vh 2vh;
+    background-color: #eb8334;
+    border: none;
+    border-radius: 10vh;
+    color: #fff;
+    font-size: 1.9vh;
+    cursor: pointer;
+}
