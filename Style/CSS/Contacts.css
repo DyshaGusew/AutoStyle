@@ -1,0 +1,48 @@
+.container {
+  display: block;
+}
+.main-text-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.main-text {
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1;
+}
+
+.other-text-inner {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+  display: flex;
+}
+
+#col_main {
+  width: 70%;
+  float: left;
+  min-height: max-content;
+  padding: 10px;
+}
+#col_siberal {
+  width: 30%;
+  float: right;
+  min-height: max-content;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.block-info {
+  margin-bottom: 40px;
+}
+
+.block-name {
+  margin-bottom: 15px;
+}
+
+.col-name {
+  margin-bottom: 7px;
+}
