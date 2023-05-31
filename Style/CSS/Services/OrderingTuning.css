@@ -1,0 +1,163 @@
+/*
+    .back {
+    background-image: url('../../../Style/Images/Services/back.jpg');
+    background-size: 40%;
+    background-repeat: repeat;
+    }
+*/
+
+.main-container {
+    background-color: #ffffff;
+}
+
+.shead {
+    font-size: 3vh;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+    padding-left: 4vh;
+}
+
+.first-block {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh;
+}
+
+.fib-left {
+    height: 55vh;
+    width: 30vh;
+    background-image: url('../../../Style/Images/Services/kring1.jpg');
+}
+
+.fib-right {
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+}
+
+.fib-rightt {
+    background-image: url('../../../Style/Images/Services/kring2.jpg');
+    width: 45vh;
+    height: 31vh;
+    background-size: 100%;
+}
+
+.fib-rightb {
+    background-image: url('../../../Style/Images/Services/kring3.jpg');
+    height: 23vh;
+    width: 45vh;
+    background-size: 100%;
+}
+
+.second-block {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh;
+}
+
+.sb-top {
+    background-image: url('../../../Style/Images/Services/lexus.jpg');
+    height: 39vh;
+    width: 100vh;
+    background-size: 100%;
+}
+
+.sb-bottom {
+    background-image: url('../../../Style/Images/Services/porshe.jpg');
+    height: 39vh;
+    width: 100vh;
+    background-size: 100%;
+}
+
+.ot-second-photo {
+    transform: translate(10%, 0%);
+    width: 80%;
+}
+
+.third-block {
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh;
+}
+
+.tb-left {
+    background-image: url('../../../Style/Images/Services/booba.jpg');
+    height: 50vh;
+    width: 37vh;
+    background-size: 100%;
+}
+
+.tb-right {
+    background-image: url('../../../Style/Images/Services/stetem.jpg');
+    height: 50vh;
+    width: 38vh;
+    background-size: 100%;
+    flex-direction: column;
+}
+
+
+.forth-block {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh;
+}
+
+.fob-left {
+    height: 56vh;
+    width: 30vh;
+    background-image: url('../../../Style/Images/Services/settings.jpg');
+    background-size: 100%;
+}
+
+.fob-right {
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+}
+
+.fob-rightt {
+    background-image: url('../../../Style/Images/Services/bmw.jpg');
+    width: 45vh;
+    height: 25vh;
+    background-size: 100%;
+}
+
+.fob-rightb {
+    background-image: url('../../../Style/Images/Services/ford.jpg');
+    height: 30vh;
+    width: 45vh;
+    background-size: 100%;
+}
+
+.main-cta {
+    padding: 6vh 0 10vh 0;
+}
+
+.main-cta-headline {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.main-cta-conatiner {
+    display: flex;
+    justify-content: center;
+}
+
+.main-cta-btn {
+    margin-top: 3.5vh;
+    padding: 1vh 2vh;
+    background-color: #eb8334;
+    border: none;
+    border-radius: 10vh;
+    color: #fff;
+    font-size: 1.9vh;
+    cursor: pointer;
+}
