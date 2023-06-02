@@ -1,0 +1,84 @@
+.main-container {
+    padding: 5vh 0 8vh 0;
+}
+
+.main-works-headline {
+    font-size: 4vh;
+}
+
+.main-works-cards-container {
+    margin-top: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.main-works-card {
+    height: 25vh;
+    width: 50vh;
+    background-position: center;
+    background-size: auto 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-works-card-inside {
+    height: 100%;
+    width: 100%;
+    padding: 2vh;
+    background-color: #0000008c;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100%;
+    transition: top 0.3s;
+}
+
+.main-works-card-inside-text {
+    color: #fff;
+    font-size: 2vh;
+}
+
+.card-1 {
+    background-image: url('../Images/WorksImages/Silvia S15.png');
+}
+
+.card-2 {
+    background-image: url('../Images/WorksImages/tyun_2.png');
+}
+
+.card-3 {
+    background-image: url('../Images/WorksImages/BMW 2002 tii.png');
+}
+
+.card-4 {
+    background-image: url('../Images/WorksImages/LIAZ-5292.png');
+}
+
+.card-5 {
+    background-image: url('../Images/WorksImages/GAZelle Next.png');
+}
+
+.card-6 {
+    background-image: url('../Images/WorksImages/Lada Vesta.png');
+}
+
+.card-7 {
+    background-image: url('../Images/WorksImages/Skyline Retro.png');
+}
+
+.card-8 {
+    background-image: url('../Images/WorksImages/S500.png');
+}
+
+.card-9 {
+    background-image: url('../Images/WorksImages/Land Cruiser Prado.png');
+}
+
+.card-10 {
+    background-image: url('../Images/WorksImages/Moskvitch.png');
+}
+
+.card-11 {
+    background-image: url('../Images/WorksImages/Volga.png');
+}
