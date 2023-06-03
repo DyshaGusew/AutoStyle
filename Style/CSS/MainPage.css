@@ -170,7 +170,7 @@
     height: 25vh;
     width: 50vh;
     background-position: center;
-    background-size: 100% auto;
+    background-size: auto 100%;
     position: relative;
     overflow: hidden;
 }
