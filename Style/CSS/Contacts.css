@@ -8,7 +8,7 @@
 }
 
 .main-text {
-  font-size: 210%;
+  font-size: 4.9vh;
   font-weight: 700;
   text-align: left;
   line-height: 1;
@@ -18,7 +18,6 @@
   margin-bottom: 20px;
   width: 100%;
   margin-left: auto;
-  margin-right: auto;
 }
 .other-text-inner {
   width: 100%;
@@ -31,7 +30,6 @@
   width: 100%;
   float: left;
   min-height: max-content;
-  padding: 10px;
 }
 #col_siberal {
   width: 30%;
@@ -42,16 +40,16 @@
 }
 
 .block-info {
-  margin-bottom: 40px;
+  margin-bottom: 6vh;
 }
 
 .block-name {
-  font-size: 180%;
+  font-size: 4vh;
   font-weight: 300;
-  margin-bottom: 15px;
+  margin-bottom: 1.4vh;
 }
 
 .col-name {
-  margin-bottom: 7px;
-  font-size: 120%;
+  margin-bottom: 1vh;
+  font-size: 2.9vh;
 }
