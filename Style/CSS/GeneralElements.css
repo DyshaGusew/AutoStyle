@@ -53,6 +53,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 2.5vh;
+    position: relative;
 }
 
 .header-nav-button {
@@ -73,6 +74,31 @@ header {
     color: #eb8334;
 }
 
+#services-menu {
+    background-color: #fff;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    position: absolute;
+    left: 0;
+    top: 150%;
+    z-index: 100;
+    display: none;
+}
+
+.services-menu-button {
+    height: 3.2vh;
+    border-bottom: 0.15vh solid transparent;
+    color: #000;
+    font-size: 2.2vh;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.services-menu-button:hover {
+    border-color: #eb8334;
+    color: #eb8334;
+}
 
 main {
     min-height: 90vh;
@@ -166,6 +192,71 @@ footer {
     margin-top: 5vh;
     font-size: 1.4vh;
     color: #9b9b9b;
+}
+
+#back-cover {
+    height: 100%;
+    width: 100%;
+    background-color: #0000009a;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.appointment-form-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.appointment-form {
+    height: 36vh;
+    width: 40vh;
+    padding: 2vh;
+    background-color: #fff;
+    border-radius: 2vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: calc(50% - 18vh);
+    left: calc(50% - 20vh);
+}
+
+.appointment-form-headline {
+    font-size: 3vh;
+}
+
+.appointment-form-input {
+    width: 100%;
+    height: 6vh;
+    padding: 1vh;
+    border: 0.1vh solid #eb8334;
+    border-radius: 1vh;
+    box-sizing: border-box;
+    font-size: 4vh;
+}
+
+.appointment-form-btn {
+    width: 100%;
+    height: 6vh;
+    background-color: #eb8334;
+    border: none;
+    border-radius: 1vh;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+.close-appointment-form {
+    width: 3vh;
+    height: 3vh;
+    position: absolute;
+    top: calc(50% - 17vh);
+    left: calc(50% + 16vh);
 }
 
 /* Classes of width */
