@@ -4,25 +4,27 @@
 .main-text-inner {
   width: 100%;
   max-width: 1200px;
-  margin: 30px auto;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
 }
 
 .main-text {
-  font-size: 4.9vh;
+  font-size: 4.4vh;
   font-weight: 700;
   text-align: left;
   line-height: 1;
 }
 
 .responsive-map {
-  margin-bottom: 20px;
+  margin-bottom: 5vh;
   width: 100%;
   margin-left: auto;
+  height: 60vw;
 }
 .other-text-inner {
   width: 100%;
   height: auto;
-  margin: 30px auto;
+  margin: 3vh auto;
   display: flex;
 }
 
@@ -40,16 +42,16 @@
 }
 
 .block-info {
-  margin-bottom: 6vh;
+  margin-bottom: 4vh;
 }
 
 .block-name {
-  font-size: 4vh;
+  font-size: 3vh;
   font-weight: 300;
-  margin-bottom: 1.4vh;
+  margin-bottom: 0.5vh;
 }
 
 .col-name {
-  margin-bottom: 1vh;
-  font-size: 2.9vh;
+  margin-bottom: 0.1vh;
+  font-size: 2.2vh;
 }
