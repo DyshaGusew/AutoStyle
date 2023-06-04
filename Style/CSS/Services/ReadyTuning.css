@@ -1,0 +1,94 @@
+.main-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.shead {
+    font-size: 3vh;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+    padding-left: 2vh;
+}
+
+.text {
+    padding-left: 3vh;
+}
+
+a1 {
+    background-image: url('../../../Style/Images/Services/vihlop.jpg');
+    display: block;
+    position: relative;
+    width: 120vh;
+    height: 60vh;
+    background-size: 100%;
+}
+
+a2 {
+    background-image: url('../../../Style/Images/Services/chip.jpg');
+    display: block;
+    position: relative;
+    width: 120vh;
+    height: 60vh;
+    background-size: 100%;
+}
+
+a3 {
+    background-image: url('../../../Style/Images/Services/stens.jpg');
+    display: block;
+    position: relative;
+    width: 120vh;
+    height: 60vh;
+    background-size: 100%;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    opacity: 0;
+    color: #fff;
+    font-size: 3vh;
+    transition: opacity .4s linear
+}
+
+    span:hover {
+        opacity: 1;
+    }
+
+.main-cta {
+    padding: 6vh 0 10vh 0;
+}
+
+.main-cta-headline {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.main-cta-conatiner {
+    display: flex;
+    justify-content: center;
+}
+
+.main-cta-btn {
+    margin-top: 3.5vh;
+    padding: 1vh 2vh;
+    background-color: #eb8334;
+    border: none;
+    border-radius: 10vh;
+    color: #fff;
+    font-size: 1.9vh;
+    cursor: pointer;
+}
