@@ -1,0 +1,32 @@
+
+h1 {
+    margin-bottom: 6vh;
+}
+
+img {
+    width: 300px;
+    height: 175px;
+}
+
+h2 {
+    margin-bottom: 3vh;
+}
+
+.block-inf {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    max-width: 1000px;
+    margin-bottom: 3vh;
+}
+
+.main-works-cards-container {
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vh;
+}
+
+
+
+
