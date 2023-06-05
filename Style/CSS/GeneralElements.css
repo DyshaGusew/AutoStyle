@@ -94,7 +94,7 @@ header {
     gap: 1.5vh;
     position: absolute;
     left: 0;
-    top: 150%;
+    top: 110%;
     z-index: 100;
     display: none;
 }
@@ -273,6 +273,7 @@ footer {
     position: absolute;
     top: calc(50% - 17vh);
     left: calc(50% + 17vh);
+    cursor: pointer;
 }
 
 /* Classes of width */
