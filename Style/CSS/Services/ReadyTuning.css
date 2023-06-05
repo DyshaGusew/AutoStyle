@@ -2,9 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     font-weight: bold;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
 }
 
 .bhead {
@@ -26,179 +23,64 @@
     padding-top: 2vh;
 }
 
-.first {
+.twins {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    gap: 1%;
+    width: 145vh;
+    gap: 1vh;
     flex-wrap: wrap;
 }
 
-.firb-left {
-    width: 48%;
+.block {
+    width: 72vh;
 }
 
-.firb-right {
-    width: 48%;
+.photo {
+    display: block;
+    position: relative;
+    background-size: cover;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-afirl {
+.photo.pokraska {
     background-image: url('../../../Style/Images/Services/pokraska.jpg');
-    display: block;
-    position: relative;
-    background-size: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
 }
 
-afirr {
+.photo.plenka {
     background-image: url('../../../Style/Images/Services/plenka.jpg');
-    display: block;
-    position: relative;
-    background-size: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
 }
 
-.second {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    gap: 1%;
-    flex-wrap: wrap;
-}
-
-.secb-left {
-    width: 48%;
-}
-
-.secb-right {
-    width: 48%;
-}
-
-asecl {
+.photo.pereshivka {
     background-image: url('../../../Style/Images/Services/pereshivka.jpg');
-    display: block;
-    position: relative;
-    background-size: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
 }
 
-asecr {
+.photo.ruchnik {
     background-image: url('../../../Style/Images/Services/ruchnik.jpg');
-    display: block;
-    position: relative;
-    background-size: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
 }
 
-.third {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    gap: 1%;
-    flex-wrap: wrap;
-}
-
-.thib-left {
-    width: 48%;
-}
-
-.thib-right {
-    width: 48%;
-}
-
-athir {
+.photo.chip {
     background-image: url('../../../Style/Images/Services/chip.jpg');
-    display: block;
-    position: relative;
-    background-size: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
 }
 
-athil {
+.photo.steydj {
     background-image: url('../../../Style/Images/Services/steydj.jpg');
-    display: block;
-    position: relative;
-    background-size: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
 }
 
-.fourth {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    gap: 1%;
-    flex-wrap: wrap;
-}
-
-.foub-left {
-    width: 48%;
-}
-
-.foub-right {
-    width: 48%;
-}
-
-aforr {
+.photo.vihlop {
     background-image: url('../../../Style/Images/Services/vihlop.jpg');
-    display: block;
-    position: relative;
-    background-size: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
 }
 
-aforl {
+.photo.zvuk {
     background-image: url('../../../Style/Images/Services/zvuk.jpg');
-    display: block;
-    position: relative;
-    background-size: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
 }
 
-.fifth {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    gap: 1%;
-    flex-wrap: wrap;
-}
-
-.fifb-left {
-    width: 48%;
-}
-
-.fifb-right {
-    width: 48%;
-}
-
-afifr {
+.photo.lift {
     background-image: url('../../../Style/Images/Services/lift.jpg');
-    display: block;
-    position: relative;
-    background-size: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
 }
 
-afifl {
+.photo.stens {
     background-image: url('../../../Style/Images/Services/stens.jpg');
-    display: block;
-    position: relative;
-    background-size: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
 }
 
 span {
