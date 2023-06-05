@@ -4,43 +4,43 @@
     font-weight: bold;
     justify-content: start;
     align-content: center;
-    width: 100%;
 }
 
 .shead {
     font-size: 4vh;
     padding-top: 10vh;
     padding-bottom: 3vh;
-    width: 100%;
+
 }
 
 .first-block {
-    justify-content: center;
+    justify-content: start;
     display: flex;
-    width: 100%;
-    height: 90vh;
     gap: 1.5vh;
+    flex-wrap: wrap;
 }
 
 .fb-left {
-    width: 45%;
-    height: 100%;
+    width: 70vh;
+    height: 100vh;
     background-image: url('../../../Style/Images/Services/kring1.jpg');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 0;
 }
 
 .fb-right {
     display: flex;
     gap: 1.5vh;
-    width: 55%;
-    height: 100%;
+    width: 90.5vh;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .fb-rightt {
     background-color: #eb8334;
-    height: 48%;
+    height: 40vh;
     color: white;
     font-size: 2.5vh;
     line-height: 4vh;
@@ -49,14 +49,15 @@
 
 .fb-rightb {
     background-image: url('../../../Style/Images/Services/kring3.jpg');
-    background-size: 100%;
-    height: 48%;
-    padding-top: 4%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    height: 51vh;
+    padding-top: 3.5vh;
 }
 
 .second-block {
-    width: 100%;
     gap: 1.5vh;
     justify-content: center;
     flex-direction: column;
@@ -67,38 +68,41 @@
 
 .sb-top {
     background-image: url('../../../Style/Images/Services/lexus.jpg');
-    height: 50%;
-    width: 100%;
-    background-size: 100%;
+    height: 70vh;
+    width: 160.5vh;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sb-bottom {
     background-image: url('../../../Style/Images/Services/porshe.jpg');
-    height: 50%;
-    width: 100%;
-    background-size: 100%;
+    height: 70vh;
+    width: 160.5vh;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .third-block {
     display: flex;
-    width: 100%;
-    height: 80vh;
     gap: 1.5vh;
+    flex-wrap: wrap;
 }
 
 .tb-left {
     background-color: #eb8334;
-    width: 45%;
+    width: 70.5vh;
     color: white;
     font-size: 2.5vh;
     line-height: 4vh;
     padding: 2vh;
+    height: 76vh;
 }
 
 .tb-right {
-    width: 55%;
+    width: 90vh;
+    height: 80vh;
     display: flex;
     gap: 1.5vh;
     flex-direction: column;
@@ -107,16 +111,18 @@
 
 .tb-rightt {
     background-image: url('../../../Style/Images/Services/bmw.jpg');
-    height: 50%;
-    background-size: 110%;
+    height: 45vh;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .tb-rightb {
     background-image: url('../../../Style/Images/Services/ford.jpg');
-    height:50%;
-    background-size: 100%;
+    height: 45vh;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main-cta {
