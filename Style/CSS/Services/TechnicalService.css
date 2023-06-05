@@ -1,0 +1,28 @@
+.bhead {
+    font-size: 4vh;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    padding-left: 6vh;
+}
+
+.shead {
+    font-size: 3vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 1vh;
+}
+
+.text {
+    padding-left: 3vh;
+    padding-top: 2vh;
+}
+
+.big {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border: solid 2px black;
+    width: 100%;
+}
+
