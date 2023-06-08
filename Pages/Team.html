@@ -4,6 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" type="text/css" href="../Style/CSS/Team.css" />
         <link rel="stylesheet" type="text/css" href="../Style/CSS/GeneralElements.css" />
+        <script src="../Scripts/GeneralScript.js"></script>
         <title>Команда</title>
     </head>
     <body>
@@ -12,7 +13,7 @@
                 <div class="header-top-container">
                     <a class="logo" href="./MainPage.html" title="Главная"></a>
                     <nav class="header-nav">
-                        <div class="header-nav-button services-button">
+                        <div class="header-nav-button services-button" onclick="Services()">
                             <div>Услуги</div>
                         </div>
                         <a class="header-nav-button" href="./Works.html">
@@ -27,6 +28,18 @@
                         <a class="header-nav-button" href="./Contacts.html">
                             <div>Контакты</div>
                         </a>
+                        <button class="header-nav-appointment-button" onclick="Appointment()">Записаться на тюнинг</button>
+                        <div id="services-menu">
+                            <a class="services-menu-button" href="./Services/ReadyTuning.html">
+                                <div>Готовый тюнинг</div>
+                            </a>
+                            <a class="services-menu-button" href="./Services/OrderingTuning.html">
+                                <div>Заказной тюнинг</div>
+                            </a>
+                            <a class="services-menu-button" href="./Services/TechnicalService.html">
+                                <div>Техобслуживание</div>
+                            </a>
+                        </div>
                     </nav>
                 </div>
             </div>
@@ -149,5 +162,15 @@
                 </div>
             </div>
         </footer>
+        <div id="back-cover">
+            <div class="appointment-form-wrapper">
+                <div class="appointment-form">
+                    <h2 class="appointment-form-headline">Оставьте свой номер телефона, мы вам перезвоним и назначим встречу.</h2>
+                    <input class="appointment-form-input" type="text" />
+                    <button class="appointment-form-btn">Готово</button>
+                </div>
+                <button class="close-appointment-form" onclick="Appointment()"></button>
+            </div>
+        </div>
     </body>
 </html>
