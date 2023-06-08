@@ -1,9 +1,5 @@
 .main-container {
-    display: flex;
-    flex-wrap: wrap;
     font-weight: bold;
-    justify-content: start;
-    align-content: center;
 }
 
 .shead {
@@ -14,112 +10,72 @@
 }
 
 .first-block {
-    justify-content: start;
+}
+
+.b-t {
+    background-color: #eb8334;
+    color: white;
+    font-size: 2.5vh;
+    line-height: 4vh;
+    padding: 2vh;
+    margin-bottom: 3vh;
+}
+
+.b-cont {
     display: flex;
-    gap: 1.5vh;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.b-left, .b-right {
+    height: 40vh;
+    width: 60vh;
 }
 
 .fb-left {
-    width: 70vh;
-    height: 100vh;
-    background-image: url('../../../Style/Images/Services/kring1.jpg');
-    background-size: cover;
+    background-image: url('../../Images/Services/kring1.jpg');
+    background-size:  cover;
+    background-position: center 21%;
     background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 0;
 }
 
 .fb-right {
-    display: flex;
-    gap: 1.5vh;
-    width: 90.5vh;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.fb-rightt {
-    background-color: #eb8334;
-    height: 40vh;
-    color: white;
-    font-size: 2.5vh;
-    line-height: 4vh;
-    padding: 2vh;
-}
-
-.fb-rightb {
-    background-image: url('../../../Style/Images/Services/kring3.jpg');
-    background-size: cover;
+    background-image: url('../../Images/Services/kring3.jpg');
+    background-size:  cover;
+    background-position: 10% center;
     background-repeat: no-repeat;
-    background-position-x: left;
-    background-position-y: bottom;
-    height: 51vh;
-    padding-top: 3.5vh;
 }
 
 .second-block {
-    gap: 1.5vh;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    height: 120vh;
 }
 
-.sb-top {
+.sb-left {
     background-image: url('../../../Style/Images/Services/lexus.jpg');
-    height: 70vh;
-    width: 160.5vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 15% center;
 }
 
-.sb-bottom {
+.sb-right {
     background-image: url('../../../Style/Images/Services/porshe.jpg');
-    height: 70vh;
-    width: 160.5vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 85% center;
 }
 
 .third-block {
-    display: flex;
-    gap: 1.5vh;
-    flex-wrap: wrap;
 }
 
 .tb-left {
-    background-color: #eb8334;
-    width: 70.5vh;
-    color: white;
-    font-size: 2.5vh;
-    line-height: 4vh;
-    padding: 2vh;
-    height: 76vh;
-}
-
-.tb-right {
-    width: 90vh;
-    height: 80vh;
-    display: flex;
-    gap: 1.5vh;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-.tb-rightt {
     background-image: url('../../../Style/Images/Services/bmw.jpg');
-    height: 45vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.tb-rightb {
+.tb-right {
     background-image: url('../../../Style/Images/Services/ford.jpg');
-    height: 45vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
